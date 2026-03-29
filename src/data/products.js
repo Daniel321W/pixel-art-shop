@@ -50,7 +50,7 @@ export const products = [
   {
     id: 7,
     title: "Kwiat Sakury",
-    price: "15 PLN",
+    price: "20 PLN",
     image: "/images/gwiazdar.jpeg",
     category: "Inne",
     olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-kwiat-sakury-CID88-ID19ZCDG.html",
@@ -58,7 +58,7 @@ export const products = [
   {
     id: 8,
     title: "Gwiazda",
-    price: "10 PLN",
+    price: "20 PLN",
     image: "/images/gwiazdap.jpeg",
     category: "Inne",
     olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-gwiazda-CID88-ID19ZCv6.html",
