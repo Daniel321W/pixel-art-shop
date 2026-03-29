@@ -5,7 +5,7 @@ export const products = [
     price: "25 PLN",
     image: "/images/froggie-cat.jpeg",
     category: "Zwierzęta",
-    vintedLink: "https://www.vinted.pl/member/twoja-nazwa",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-kotek-zabka-CID88-ID19ZBbp.html",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const products = [
     price: "15 PLN",
     image: "/images/wydra-w-akwarium.jpeg",
     category: "Zwierzęta",
-    vintedLink: "https://www.vinted.pl/",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-wydra-CID88-ID19ZBtB.html",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const products = [
     price: "30 PLN",
     image: "/images/kotek-marie.jpeg",
     category: "Zwierzęta",
-    vintedLink: "https://www.vinted.pl/",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-kotek-marie-CID88-ID19ZBFl.html",
   },
   {
     id: 4,
@@ -29,12 +29,38 @@ export const products = [
     price: "20 PLN",
     image: "/images/bloom-winx-club.jpeg",
     category: "Bajki",
-    vintedLink: "https://www.vinted.pl/",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-winx-bloom-CID88-ID19ZBT5.html",
   },
-  
-
-
-
-
-
+  {
+    id: 5,
+    title: "Hello Kitty",
+    price: "25 PLN",
+    image: "/images/hello-kitty.jpeg",
+    category: "Sanrio",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-hello-kitty-CID88-ID19ZCOL.html",
+  },
+  {
+    id: 6,
+    title: "Cinnamoroll",
+    price: "25 PLN",
+    image: "/images/cinnamaroll.jpeg",
+    category: "Sanrio",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-cinnamaroll-CID88-ID19ZCK9.html",
+  },
+  {
+    id: 7,
+    title: "Kwiat Sakury",
+    price: "15 PLN",
+    image: "/images/gwiazdar.jpeg",
+    category: "Inne",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-kwiat-sakury-CID88-ID19ZCDG.html",
+  },
+  {
+    id: 8,
+    title: "Gwiazda",
+    price: "10 PLN",
+    image: "/images/gwiazdap.jpeg",
+    category: "Inne",
+    olxLink: "https://www.olx.pl/d/oferta/figurka-z-koralikow-gwiazda-CID88-ID19ZCv6.html",
+  }
 ];
