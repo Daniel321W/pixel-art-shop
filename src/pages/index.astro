@@ -16,19 +16,27 @@ import { products } from '../data/products.js';
   </nav>
 
   <header class="bg-indigo-50 py-16 md:py-24">
-    <div class="max-w-4xl mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6">
-        Twoje ulubione postacie <br/> <span class="text-indigo-600">w wersji Pixel Art</span>
-      </h1>
-      <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-        Ręcznie robione ozdoby z koralików. Breloki, magnesy, podstawki i figurki. 
-        Wybierz gotowy wzór lub zamów coś unikalnego!
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="#galeria" class="px-8 py-3 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-700 transition shadow-lg text-center">
-          Zobacz Gotowe Wzory
-        </a>
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16">
+      
+      <div class="max-w-xl text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6">
+          Twoje ulubione postacie <br/> <span class="text-indigo-600">w wersji Pixel Art</span>
+        </h1>
+        <p class="text-lg text-gray-600 mb-8 mx-auto">
+          Ręcznie robione ozdoby z koralików. Breloki, magnesy, podstawki i figurki. 
+          Wybierz gotowy wzór lub zamów coś unikalnego!
+        </p>
+        <div class="flex justify-center">
+          <a href="#galeria" class="px-8 py-3 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-700 transition shadow-lg text-center">
+            Zobacz Gotowe Wzory
+          </a>
+        </div>
       </div>
+
+      <div class="flex-shrink-0 mt-8 md:mt-0">
+        <img src="/images/room.png" alt="Pixel Art Maskotka" class="w-full max-w-[500px] md:w-[600px] object-contain drop-shadow-2xl transition-transform duration-300" />
+      </div>
+
     </div>
   </header>
 
@@ -159,6 +167,4 @@ import { products } from '../data/products.js';
   </footer>
 
 </Layout>
-
 <script src="/shop.js" defer></script>
-
