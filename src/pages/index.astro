@@ -6,11 +6,11 @@ import { products } from '../data/products.js';
 <Layout title="Pixel Art Shop - Zestawy DIY i gotowe figurki z koralików">
   
   <nav class="bg-white shadow-sm sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-2xl font-bold text-indigo-600">PixelArt<span class="text-gray-800">Shop</span></div>
-      <div class="space-x-4">
-        <a href="#galeria" class="text-gray-600 hover:text-indigo-600 font-medium">Gotowe Figurki</a>
-        <a href="#zamow" class="bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition">Zamów projekt</a>
+    <div class="max-w-6xl mx-auto px-4 py-3 sm:py-4 flex flex-wrap justify-between items-center gap-y-3">
+      <div class="text-xl sm:text-2xl font-bold text-indigo-600">PixelArt<span class="text-gray-800">Shop</span></div>
+      <div class="flex items-center gap-3 sm:gap-4 ml-auto">
+        <a href="#galeria" class="text-sm sm:text-base text-gray-600 hover:text-indigo-600 font-medium whitespace-nowrap">Gotowe Figurki</a>
+        <a href="#zamow" class="text-sm sm:text-base bg-indigo-600 text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-full hover:bg-indigo-700 transition whitespace-nowrap">Zamów projekt</a>
       </div>
     </div>
   </nav>
@@ -134,7 +134,7 @@ import { products } from '../data/products.js';
               </h3>
               <div class="text-2xl font-black text-indigo-900 mb-4">{product.price}</div>
               
-              <a
+              <a 
                 href={product.buyLink}
                 target="_blank"
                 rel="noopener noreferrer"
